@@ -1,0 +1,73 @@
+@import "backdiv";
+@import "phone";
+@import "messages";
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    min-height: 50rem;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom: 1rem;
+}
+
+.product-info{
+    margin-left: 50%;
+    margin-right: 5rem;
+    margin-top: 19.75%;
+    width: 50rem;
+}
+
+.product-info h1{
+    margin-left: 1rem;
+    font-size: 2.4em;
+    color: $Very-Dark-Desaturated-Violet;
+}
+
+.product-info p{
+    margin-left: 1rem;
+    line-height: 1.7em;
+    color: $DarkGrayish-Violet;
+}
+
+@media screen and ( max-width: 700px )
+{
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-info{
+        margin: 0 auto;
+        margin-top: 2.4rem;
+        position: static;
+        margin-bottom: 15rem;
+        width: 90vw;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 5rem;
+    }
+    .product-info h1{
+        margin-left: 1rem;
+        font-size: 2.4em;
+        color: $Very-Dark-Desaturated-Violet;
+        text-align: center;
+    }
+    .product-info p{
+        width: 80vw;
+    }
+    .backgroundImage{
+        width: 100vw;
+    }
+    footer{
+        position: relative;
+    }
+}

@@ -1,0 +1,95 @@
+@import "colours";
+
+.messagesHolder{
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 73.5%;
+}
+
+.text{
+    display: inline-block;
+    font-size: 0.5em;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 0.45rem;
+    padding-right: 0.5rem;
+    letter-spacing: -0.01em;
+    line-height: 1.35em;
+    font-weight: 500;
+    max-width: 7rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.65rem;
+
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text img{
+    width: 2.55rem;
+    border-radius: 10px;
+    margin-left: 0.9rem;
+    margin-right: -0.5rem;
+    margin-bottom: -0.55rem;
+}
+
+.text.left{
+    color: $Moderate-Violet;
+    background-color: #ede4f5;
+    color: $Moderate-Violet;
+    border-bottom-left-radius: 4px;
+}
+
+.text.right{
+    margin-left: auto; 
+    margin-right: 0.4rem;
+    background-color: $White;
+    color: $Desaturated-Dark-Violet;
+    border-bottom-right-radius: 4px;
+}
+
+.text.right.img-holder{
+    background-color: #00000000;
+}
+
+.text-spacer{
+    width: 100%;
+    height: 0.3rem;
+}
+
+.text.left.walk-offer{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right ,$Light-Magenta ,$Light-Violet);
+    max-width: 9rem;
+    height: 1.2rem;
+    margin-bottom: 0.6rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    color: white;
+}
+
+.text.left.walk-offer div{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.25rem;
+    border-radius: 50%;
+
+    border: 2px solid white;
+}
+
+.text.left.walk-offer p{
+    margin-left: 0.4rem;
+    color: $Light-Grayish-Violet;
+}
+
+.text.left.walk-offer h1{
+    font-size: 1.5em;
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+}

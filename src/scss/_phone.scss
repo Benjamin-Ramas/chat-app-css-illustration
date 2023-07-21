@@ -1,0 +1,174 @@
+.phoneBorder{
+    width: 14.2rem;
+    height: 30.3rem;
+    z-index: 3;
+    position: absolute;
+    right: 57.7vw;
+    top: 18.4%;
+    border: 0.6rem solid #ffffff;
+    border-radius: 1.2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
+    transform-style: preserve-3d;
+}
+
+.phoneBackground{
+    width: 100%;
+    height: 30.4rem;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -0.1em;
+    border-radius: 1vw;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
+    transform-style: preserve-3d;
+    background-color: $Light-Grayish-Violet;
+    transform: translateZ(-20px);
+}
+
+.phoneIndent{
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -1.6%;
+    width: 58%;
+    height: 5.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.contactInfo{
+    width: 100%;
+    background-image: linear-gradient(to right ,$Light-Violet ,$Light-Magenta);
+    margin-top: 0;
+    z-index: 1;
+    transform: translateZ(-10px);
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+}
+
+.contactAvatar{
+    margin-top: 1.9rem;
+    margin-left: 12%;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1.75px solid $White;
+    padding: 0;
+}
+
+.contactName{
+    color: $White;
+    margin-top: 1.4rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.35rem;
+}
+
+.contactName h1{
+    font-size: 0.7em;
+    margin-left: 0.2rem;
+    margin-bottom: 0;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
+    color: $White;
+}
+
+.contactName h2{
+    font-size: 0.5em;
+    margin-top: 0.1rem;
+    margin-left: 0.25rem;
+    font-weight: 300;
+    color: $Grayish-Blue;
+}
+
+.messageSender{
+    background-color: $White;
+    border-radius: 15px;
+    width: 92.5%;
+    height: 2rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.messageSender p{
+    margin: auto;
+    margin-left: 1rem;
+    line-height: 350%;
+    font-size: 0.6em;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    color: $Grayish-Blue;
+}
+
+.messageSender .fakeButton{
+    background-color: $Very-Dark-Desaturated-Violet;
+    height: 80%;
+    margin-top: 0.15rem;
+    margin-left: auto;
+    margin-right: 0.15rem;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    color: $White;
+    text-align: center;
+}
+
+.messageSender .fakeButton img{
+    filter: invert(100%);
+    margin: 0 auto;
+}
+
+.arrow-icon{
+    filter: invert(100%);
+    height: 2rem;
+    position: absolute;
+    transform: scaleX(-1);
+    left: 0.4rem;
+    margin-top: 1.9rem;
+}
+
+.three-dot{
+    width: 0.55rem;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 2.4rem;
+    right: 0.74rem;
+    filter: invert(100%);
+}
+
+@media screen and ( max-width: 700px )
+{
+    .phoneBorder{
+        width: 14rem;
+        height: 30.4rem;
+        z-index: 3;
+        position: static;
+        margin: 0 auto;
+        margin-top: 4rem;
+        border-radius: 7vw;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
+        transform-style: preserve-3d;
+    }
+    .phoneBackground{
+        width: 101%;
+        height: 101%;
+    }
+    .contactInfo{
+        width: 100%;
+        background-image: linear-gradient(to right ,$Light-Violet ,$Light-Magenta);
+        margin-top: 0;
+        z-index: 1;
+        transform: translateZ(-10px);
+        display: flex;
+        flex-direction: row;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        position: relative;
+    }
+}
