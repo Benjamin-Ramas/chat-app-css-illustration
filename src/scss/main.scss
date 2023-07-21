@@ -9,6 +9,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color: $Light-Grayish-Violet;
 }
 
 main{
@@ -34,6 +35,7 @@ footer{
 .product-info h1{
     margin-left: 1rem;
     font-size: 2.4em;
+    font-weight: 500;
     color: $Very-Dark-Desaturated-Violet;
 }
 
@@ -41,6 +43,8 @@ footer{
     margin-left: 1rem;
     line-height: 1.7em;
     color: $DarkGrayish-Violet;
+    display: block;
+    max-width: 28rem;
 }
 
 @media screen and ( max-width: 700px )

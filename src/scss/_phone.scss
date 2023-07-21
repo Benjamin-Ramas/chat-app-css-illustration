@@ -6,8 +6,8 @@
     right: 57.7vw;
     top: 18.4%;
     border: 0.6rem solid #ffffff;
-    border-radius: 1.2rem;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.264);
     transform-style: preserve-3d;
 }
 
@@ -19,7 +19,7 @@
     top: 0;
     left: -0.1em;
     border-radius: 1vw;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.085);
     transform-style: preserve-3d;
     background-color: $Light-Grayish-Violet;
     transform: translateZ(-20px);
@@ -151,8 +151,6 @@
         position: static;
         margin: 0 auto;
         margin-top: 4rem;
-        border-radius: 1rem;;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.505);
         transform-style: preserve-3d;
     }
     .phoneBackground{
